@@ -1,0 +1,6 @@
+{
+  "name": "Personal Fitness Tracker",
+  "description": "A comprehensive, responsive personal fitness tracker featuring workout logging, video demonstrations, Indian & global nutrition tracking, day-wise workout & diet plans, water and step monitoring, BMI and calorie calculators, goal progress, and an admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

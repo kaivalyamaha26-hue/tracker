@@ -1,0 +1,2353 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "name": "Admin Coach",
+      "email": "admin@fitness.com",
+      "phone": "+1 555-0199",
+      "dob": "1988-04-12",
+      "gender": "Male",
+      "height": 182,
+      "weight": 80,
+      "passwordHash": "hashed_39c43b7d_YWRtaW4xMjM=",
+      "role": "ADMIN",
+      "fitnessGoal": "Strength",
+      "experienceLevel": "Advanced",
+      "availableDays": 6,
+      "equipment": "Gym",
+      "createdAt": "2026-07-12"
+    },
+    {
+      "id": "usr_alex_002",
+      "name": "Alex Rivera",
+      "email": "alex@fitness.com",
+      "phone": "+1 555-0144",
+      "dob": "1996-08-23",
+      "gender": "Male",
+      "height": 178,
+      "weight": 74,
+      "passwordHash": "hashed_8c5c579_dXNlcjEyMw==",
+      "role": "USER",
+      "fitnessGoal": "Muscle Building",
+      "experienceLevel": "Intermediate",
+      "availableDays": 5,
+      "equipment": "Gym",
+      "createdAt": "2026-08-11"
+    },
+    {
+      "id": "usr_1789020261621_q0dk",
+      "name": "Kaivalya Mahajan",
+      "email": "kaivalya.maha26@gmail.com",
+      "phone": "",
+      "dob": "2006-05-27",
+      "gender": "Male",
+      "height": 175,
+      "weight": 60,
+      "passwordHash": "hashed_22f1474d_S2FpdmFseWFfMjAwNg==",
+      "role": "USER",
+      "fitnessGoal": "Weight Gain",
+      "experienceLevel": "Beginner",
+      "availableDays": 6,
+      "equipment": "Home Equipment",
+      "createdAt": "2026-09-10"
+    }
+  ],
+  "profiles": {
+    "usr_alex_002": {
+      "userId": "usr_alex_002",
+      "dailyWaterGoal": 3000,
+      "dailyStepGoal": 10000,
+      "dailyCalorieGoal": 2400,
+      "dailyProteinGoal": 140,
+      "dailyCarbsGoal": 260,
+      "dailyFatGoal": 65
+    },
+    "usr_admin_001": {
+      "userId": "usr_admin_001",
+      "dailyWaterGoal": 3500,
+      "dailyStepGoal": 12000,
+      "dailyCalorieGoal": 2700,
+      "dailyProteinGoal": 160,
+      "dailyCarbsGoal": 280,
+      "dailyFatGoal": 70
+    },
+    "usr_1789020261621_q0dk": {
+      "userId": "usr_1789020261621_q0dk",
+      "dailyWaterGoal": 3000,
+      "dailyStepGoal": 10000,
+      "dailyCalorieGoal": 2200,
+      "dailyProteinGoal": 120,
+      "dailyCarbsGoal": 250,
+      "dailyFatGoal": 65
+    }
+  },
+  "workouts": [
+    {
+      "id": "w_1",
+      "userId": "usr_alex_002",
+      "exercise": "Bench Press",
+      "muscleGroup": "Chest",
+      "sets": 4,
+      "reps": 10,
+      "weight": 75,
+      "duration": 25,
+      "caloriesBurned": 180,
+      "date": "2026-09-10",
+      "notes": "Felt strong, good bar path on top sets."
+    },
+    {
+      "id": "w_2",
+      "userId": "usr_alex_002",
+      "exercise": "Push Ups",
+      "muscleGroup": "Chest",
+      "sets": 3,
+      "reps": 20,
+      "weight": 0,
+      "duration": 15,
+      "caloriesBurned": 95,
+      "date": "2026-09-10",
+      "notes": "Explosive lockout on all reps."
+    },
+    {
+      "id": "w_3",
+      "userId": "usr_alex_002",
+      "exercise": "Pull Ups",
+      "muscleGroup": "Back",
+      "sets": 4,
+      "reps": 8,
+      "weight": 0,
+      "duration": 20,
+      "caloriesBurned": 140,
+      "date": "2026-09-09",
+      "notes": "Full dead hang stretch each rep."
+    },
+    {
+      "id": "w_4",
+      "userId": "usr_alex_002",
+      "exercise": "Deadlift",
+      "muscleGroup": "Back",
+      "sets": 4,
+      "reps": 6,
+      "weight": 120,
+      "duration": 30,
+      "caloriesBurned": 240,
+      "date": "2026-09-09",
+      "notes": "Solid spinal brace, no lower back fatigue."
+    },
+    {
+      "id": "w_5",
+      "userId": "usr_alex_002",
+      "exercise": "Barbell Back Squat",
+      "muscleGroup": "Legs",
+      "sets": 4,
+      "reps": 8,
+      "weight": 95,
+      "duration": 35,
+      "caloriesBurned": 260,
+      "date": "2026-09-08",
+      "notes": "Hit depth parallel on every set."
+    },
+    {
+      "id": "w_6",
+      "userId": "usr_alex_002",
+      "exercise": "Overhead Shoulder Press",
+      "muscleGroup": "Shoulders",
+      "sets": 4,
+      "reps": 8,
+      "weight": 50,
+      "duration": 25,
+      "caloriesBurned": 160,
+      "date": "2026-09-07",
+      "notes": "Good overhead lockout."
+    },
+    {
+      "id": "w_7",
+      "userId": "usr_alex_002",
+      "exercise": "Treadmill / Outdoor Running",
+      "muscleGroup": "Cardio",
+      "sets": 1,
+      "reps": 1,
+      "weight": 0,
+      "duration": 25,
+      "caloriesBurned": 290,
+      "date": "2026-09-06",
+      "notes": "Pace 5:20/km comfortable rhythm."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_bench_press",
+      "name": "Bench Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "equipment": "Barbell, Bench",
+      "instructions": [
+        "Lie flat on bench with eyes directly under the bar.",
+        "Grip bar slightly wider than shoulder-width with wrists straight.",
+        "Unrack bar, lower smoothly to mid-chest touching lightly.",
+        "Press bar up explosively locking arms without hyperextending elbows."
+      ],
+      "benefits": "Builds upper body pushing power, pectoral thickness, and tricep strength.",
+      "commonMistakes": [
+        "Bouncing bar off sternum",
+        "Flaring elbows 90 degrees",
+        "Arching lower back excessively"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "8 - 10 reps",
+      "restTime": "90 - 120 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_push_ups",
+      "name": "Push Ups",
+      "muscleGroup": "Chest",
+      "difficulty": "Beginner",
+      "equipment": "Bodyweight",
+      "instructions": [
+        "Place hands shoulder-width apart on the floor with fingers spread.",
+        "Keep core tight, body forming a straight line from neck to heels.",
+        "Lower chest until 2 inches above the ground.",
+        "Push forcefully back to the starting plank position."
+      ],
+      "benefits": "Develops pectoral endurance, shoulder stability, and abdominal core tension.",
+      "commonMistakes": [
+        "Sagging hips",
+        "Poking neck forward",
+        "Partial range of motion"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "15 - 20 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_incline_bench",
+      "name": "Incline Bench Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "equipment": "Incline Bench, Dumbbells/Barbell",
+      "instructions": [
+        "Set bench angle to 30 to 45 degrees.",
+        "Lower dumbbells with control toward the upper clavicular chest.",
+        "Drive weights upward in a smooth arc until nearly touching."
+      ],
+      "benefits": "Emphasizes upper chest fibers (clavicular head) and anterior deltoids.",
+      "commonMistakes": [
+        "Setting bench angle too steep (>45 deg shifts to shoulders)",
+        "Dropping elbows too low"
+      ],
+      "recommendedSets": "3 - 4 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "90 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_dumbbell_fly",
+      "name": "Dumbbell Fly",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "equipment": "Dumbbells, Flat Bench",
+      "instructions": [
+        "Lie on flat bench holding dumbbells above chest with slight elbow bend.",
+        "Open arms out in wide hug motion feeling deep chest stretch.",
+        "Contract chest muscles to bring dumbbells back together."
+      ],
+      "benefits": "Provides deep pectoral stretch and muscle hypertrophy through tension.",
+      "commonMistakes": [
+        "Bending elbows into a press",
+        "Overstretching shoulder capsule"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "12 - 15 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_pull_ups",
+      "name": "Pull Ups",
+      "muscleGroup": "Back",
+      "difficulty": "Intermediate",
+      "equipment": "Pull-up Bar",
+      "instructions": [
+        "Hang with overhand grip slightly wider than shoulder width.",
+        "Depress scapulae downward and pull elbows towards ribs.",
+        "Pull until chin clears the top of the bar.",
+        "Lower with steady control to full dead hang."
+      ],
+      "benefits": "Widest back lats, bicep grip endurance, and vertical pulling strength.",
+      "commonMistakes": [
+        "Kipping or swinging legs",
+        "Not clearing chin above bar",
+        "Skipping bottom stretch"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "6 - 10 reps",
+      "restTime": "90 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_deadlift",
+      "name": "Deadlift",
+      "muscleGroup": "Back",
+      "difficulty": "Advanced",
+      "equipment": "Barbell, Weight Plates",
+      "instructions": [
+        "Stand with feet hip-width apart, barbell over mid-foot.",
+        "Hinge hips back, grasp bar just outside shins.",
+        "Brace core, flatten spine, pull slack out of bar.",
+        "Drive through floor, extending hips and knees simultaneously to lockout."
+      ],
+      "benefits": "Ultimate posterior chain builder: erector spinae, lats, glutes, and hamstrings.",
+      "commonMistakes": [
+        "Rounding lumbar spine",
+        "Bar drifting away from body",
+        "Hyperextending lower back at top"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "5 - 6 reps",
+      "restTime": "120 - 180 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_lat_pulldown",
+      "name": "Lat Pulldown",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "equipment": "Cable Pulldown Machine",
+      "instructions": [
+        "Sit securely with thighs under pads, grip wide angled bar.",
+        "Lean back 10 degrees and pull bar down to upper collarbone.",
+        "Squeeze lats firmly, then slowly return bar to top position."
+      ],
+      "benefits": "Controlled latissimus dorsi activation and upper back broadening.",
+      "commonMistakes": [
+        "Pulling behind the neck",
+        "Swinging torso violently for momentum"
+      ],
+      "recommendedSets": "3 - 4 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "60 - 90 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_seated_row",
+      "name": "Seated Cable Row",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "equipment": "Low Cable Row Machine",
+      "instructions": [
+        "Sit with knees slightly bent, feet on footplates.",
+        "Pull handle into lower abdomen while squeezing shoulder blades together.",
+        "Extend arms forward maintaining an upright neutral spine."
+      ],
+      "benefits": "Thickens middle back (rhomboids, traps) and improves posture.",
+      "commonMistakes": [
+        "Excessive forward rounding of lumbar spine",
+        "Shrugging shoulders up to ears"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_shoulder_press",
+      "name": "Overhead Shoulder Press",
+      "muscleGroup": "Shoulders",
+      "difficulty": "Intermediate",
+      "equipment": "Barbell or Dumbbells",
+      "instructions": [
+        "Hold dumbbells at ear height with palms forward or neutral.",
+        "Press weights directly overhead until arms are extended.",
+        "Lower slowly under control to ear level."
+      ],
+      "benefits": "Builds broad 3D deltoids, clavicular stability, and lockout power.",
+      "commonMistakes": [
+        "Arching lower back into an incline press",
+        "Not locking out top"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "8 - 10 reps",
+      "restTime": "90 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_lateral_raise",
+      "name": "Lateral Raise",
+      "muscleGroup": "Shoulders",
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells",
+      "instructions": [
+        "Stand tall holding light dumbbells at sides with slight elbow bend.",
+        "Raise arms out to sides until parallel to the floor.",
+        "Lead with elbows, pause 1 second at apex, and lower slowly."
+      ],
+      "benefits": "Isolates lateral deltoids to create the sought-after V-taper frame.",
+      "commonMistakes": [
+        "Using heavy weights and swinging hips",
+        "Raising above parallel putting impingement on joint"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "12 - 15 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_bicep_curl",
+      "name": "Dumbbell Bicep Curl",
+      "muscleGroup": "Biceps",
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells",
+      "instructions": [
+        "Stand with dumbbells at sides, palms facing inward.",
+        "Curl weights upward while supinating wrists (palms up).",
+        "Squeeze biceps hard at top without swinging elbows forward."
+      ],
+      "benefits": "Increases bicep peak and forearm flexor strength.",
+      "commonMistakes": [
+        "Swinging torso back and forth",
+        "Letting elbows flare forward"
+      ],
+      "recommendedSets": "3 - 4 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_hammer_curl",
+      "name": "Hammer Curl",
+      "muscleGroup": "Biceps",
+      "difficulty": "Beginner",
+      "equipment": "Dumbbells",
+      "instructions": [
+        "Hold dumbbells with neutral grip (palms facing each other).",
+        "Curl dumbbells up to shoulder height maintaining vertical palms.",
+        "Lower smoothly back to starting position."
+      ],
+      "benefits": "Targets brachialis and brachioradialis for forearm and arm thickness.",
+      "commonMistakes": [
+        "Moving upper arms away from sides",
+        "Rushing eccentric tempo"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "12 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_tricep_pushdown",
+      "name": "Tricep Pushdown",
+      "muscleGroup": "Triceps",
+      "difficulty": "Beginner",
+      "equipment": "Cable Machine, Rope or Straight Bar",
+      "instructions": [
+        "Attach rope or bar to high cable pulley.",
+        "Pin elbows tightly to your sides and push downwards.",
+        "Spread rope ends apart at bottom for complete tricep contraction."
+      ],
+      "benefits": "Builds lateral and medial tricep heads, making up 60% of upper arm mass.",
+      "commonMistakes": [
+        "Letting elbows wander back and forth",
+        "Using body weight to lean over bar"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "12 - 15 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_overhead_extension",
+      "name": "Overhead Tricep Extension",
+      "muscleGroup": "Triceps",
+      "difficulty": "Intermediate",
+      "equipment": "Dumbbell or Cable",
+      "instructions": [
+        "Hold dumbbell with both hands overhead with elbows pointing forward.",
+        "Lower weight behind head until forearms pass 90 degrees.",
+        "Extend elbows back up to full vertical stretch."
+      ],
+      "benefits": "Maximizes stretch on long head of triceps for upper arm volume.",
+      "commonMistakes": [
+        "Flaring elbows sideways",
+        "Arching lower back"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_squats",
+      "name": "Barbell Back Squat",
+      "muscleGroup": "Legs",
+      "difficulty": "Intermediate",
+      "equipment": "Barbell, Squat Rack",
+      "instructions": [
+        "Rest bar across upper traps, feet shoulder-width apart, toes turned slightly out.",
+        "Brace core, push hips back and knees out in line with toes.",
+        "Descend until thighs are parallel or below parallel to floor.",
+        "Drive through mid-foot and heel to return upright."
+      ],
+      "benefits": "King of leg builders: quadriceps, glutes, adductors, and core power.",
+      "commonMistakes": [
+        "Knees caving inward (valgus collapse)",
+        "Rising onto toes",
+        "Rounding back at bottom"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "8 - 10 reps",
+      "restTime": "120 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_lunges",
+      "name": "Walking Lunges",
+      "muscleGroup": "Legs",
+      "difficulty": "Beginner",
+      "equipment": "Bodyweight or Dumbbells",
+      "instructions": [
+        "Step forward with one foot, lowering hips until both knees bend at 90 degrees.",
+        "Keep front knee tracking over ankle and torso upright.",
+        "Push through front heel to step directly into the next lunge."
+      ],
+      "benefits": "Single-leg strength, balance, glute activation, and hamstring tone.",
+      "commonMistakes": [
+        "Knee bashing into floor",
+        "Front knee shooting past toes excessively"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "12 reps each leg",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_leg_press",
+      "name": "Leg Press",
+      "muscleGroup": "Legs",
+      "difficulty": "Beginner",
+      "equipment": "45-Degree Leg Press Machine",
+      "instructions": [
+        "Sit with back and head firmly against padded support, feet shoulder-width on sled.",
+        "Release safety bars, lower sled until knees reach 90 degrees.",
+        "Press through whole foot back to start without locking knees."
+      ],
+      "benefits": "Heavy quadricep and glute stimulation with zero spinal loading.",
+      "commonMistakes": [
+        "Locking knees hard at top",
+        "Lower back peeling off backrest"
+      ],
+      "recommendedSets": "4 sets",
+      "recommendedReps": "10 - 12 reps",
+      "restTime": "90 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_crunches",
+      "name": "Abdominal Crunches",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "equipment": "Mat",
+      "instructions": [
+        "Lie on back with knees bent and feet flat on floor.",
+        "Place fingertips behind ears, curl shoulders toward pelvis.",
+        "Contract rectus abdominis tightly at peak, lower back down with control."
+      ],
+      "benefits": "Strengthens upper abdominal wall and enhances core flexion.",
+      "commonMistakes": [
+        "Yanking neck with hands",
+        "Lifting lower back off mat"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "20 reps",
+      "restTime": "45 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_plank",
+      "name": "Forearm Plank",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "equipment": "Mat",
+      "instructions": [
+        "Rest on forearms with elbows directly under shoulders.",
+        "Keep body rigid in a straight plank line from shoulders to ankles.",
+        "Squeeze glutes, tighten abs, and breathe steadily without dropping pelvis."
+      ],
+      "benefits": "Anti-extension core stability and deep transverse abdominis endurance.",
+      "commonMistakes": [
+        "Sagging hips",
+        "Piking butt into air",
+        "Holding breath"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "45 - 60 seconds",
+      "restTime": "60 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_mountain_climbers",
+      "name": "Mountain Climbers",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "equipment": "Mat / Bodyweight",
+      "instructions": [
+        "Start in top push-up plank position.",
+        "Drive one knee forward into chest quickly, then switch legs in rhythmic running cadence.",
+        "Maintain level hips and tight core throughout."
+      ],
+      "benefits": "Dynamic core conditioning, hip flexor endurance, and cardio calorie burn.",
+      "commonMistakes": [
+        "Bouncing hips wildly",
+        "Shoulders falling behind hands"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "30 seconds",
+      "restTime": "45 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_running",
+      "name": "Treadmill / Outdoor Running",
+      "muscleGroup": "Cardio",
+      "difficulty": "Beginner",
+      "equipment": "Running Shoes / Treadmill",
+      "instructions": [
+        "Maintain upright posture with slight forward lean from ankles.",
+        "Strike ground lightly with midfoot beneath center of gravity.",
+        "Keep arms swinging forward and back at 90 degree bends."
+      ],
+      "benefits": "Cardiovascular heart conditioning, high calorie oxidation, and mental stamina.",
+      "commonMistakes": [
+        "Overstriding onto heel",
+        "Hunching shoulders",
+        "Shallow breathing"
+      ],
+      "recommendedSets": "1 session",
+      "recommendedReps": "20 - 30 mins",
+      "restTime": "Active recovery",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "ex_jumping_jacks",
+      "name": "Jumping Jacks",
+      "muscleGroup": "Cardio",
+      "difficulty": "Beginner",
+      "equipment": "None",
+      "instructions": [
+        "Stand tall with feet together, arms by sides.",
+        "Jump feet out while clapping hands overhead.",
+        "Immediately jump back to starting position in a quick rhythm."
+      ],
+      "benefits": "Full body aerobic warm-up and lymphatic circulation.",
+      "commonMistakes": [
+        "Landing heavily on flat feet instead of balls of feet"
+      ],
+      "recommendedSets": "3 sets",
+      "recommendedReps": "45 seconds",
+      "restTime": "30 sec",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?w=600&auto=format&fit=crop&q=80"
+    }
+  ],
+  "videos": [
+    {
+      "id": "vid_ex_bench_press",
+      "exerciseId": "ex_bench_press",
+      "exerciseName": "Bench Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "title": "Bench Press - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:20 mins"
+    },
+    {
+      "id": "vid_ex_push_ups",
+      "exerciseId": "ex_push_ups",
+      "exerciseName": "Push Ups",
+      "muscleGroup": "Chest",
+      "difficulty": "Beginner",
+      "title": "Push Ups - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:27 mins"
+    },
+    {
+      "id": "vid_ex_incline_bench",
+      "exerciseId": "ex_incline_bench",
+      "exerciseName": "Incline Bench Press",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "title": "Incline Bench Press - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:34 mins"
+    },
+    {
+      "id": "vid_ex_dumbbell_fly",
+      "exerciseId": "ex_dumbbell_fly",
+      "exerciseName": "Dumbbell Fly",
+      "muscleGroup": "Chest",
+      "difficulty": "Intermediate",
+      "title": "Dumbbell Fly - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:41 mins"
+    },
+    {
+      "id": "vid_ex_pull_ups",
+      "exerciseId": "ex_pull_ups",
+      "exerciseName": "Pull Ups",
+      "muscleGroup": "Back",
+      "difficulty": "Intermediate",
+      "title": "Pull Ups - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:48 mins"
+    },
+    {
+      "id": "vid_ex_deadlift",
+      "exerciseId": "ex_deadlift",
+      "exerciseName": "Deadlift",
+      "muscleGroup": "Back",
+      "difficulty": "Advanced",
+      "title": "Deadlift - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:20 mins"
+    },
+    {
+      "id": "vid_ex_lat_pulldown",
+      "exerciseId": "ex_lat_pulldown",
+      "exerciseName": "Lat Pulldown",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "title": "Lat Pulldown - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:27 mins"
+    },
+    {
+      "id": "vid_ex_seated_row",
+      "exerciseId": "ex_seated_row",
+      "exerciseName": "Seated Cable Row",
+      "muscleGroup": "Back",
+      "difficulty": "Beginner",
+      "title": "Seated Cable Row - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:34 mins"
+    },
+    {
+      "id": "vid_ex_shoulder_press",
+      "exerciseId": "ex_shoulder_press",
+      "exerciseName": "Overhead Shoulder Press",
+      "muscleGroup": "Shoulders",
+      "difficulty": "Intermediate",
+      "title": "Overhead Shoulder Press - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:41 mins"
+    },
+    {
+      "id": "vid_ex_lateral_raise",
+      "exerciseId": "ex_lateral_raise",
+      "exerciseName": "Lateral Raise",
+      "muscleGroup": "Shoulders",
+      "difficulty": "Beginner",
+      "title": "Lateral Raise - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:48 mins"
+    },
+    {
+      "id": "vid_ex_bicep_curl",
+      "exerciseId": "ex_bicep_curl",
+      "exerciseName": "Dumbbell Bicep Curl",
+      "muscleGroup": "Biceps",
+      "difficulty": "Beginner",
+      "title": "Dumbbell Bicep Curl - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:20 mins"
+    },
+    {
+      "id": "vid_ex_hammer_curl",
+      "exerciseId": "ex_hammer_curl",
+      "exerciseName": "Hammer Curl",
+      "muscleGroup": "Biceps",
+      "difficulty": "Beginner",
+      "title": "Hammer Curl - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:27 mins"
+    },
+    {
+      "id": "vid_ex_tricep_pushdown",
+      "exerciseId": "ex_tricep_pushdown",
+      "exerciseName": "Tricep Pushdown",
+      "muscleGroup": "Triceps",
+      "difficulty": "Beginner",
+      "title": "Tricep Pushdown - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:34 mins"
+    },
+    {
+      "id": "vid_ex_overhead_extension",
+      "exerciseId": "ex_overhead_extension",
+      "exerciseName": "Overhead Tricep Extension",
+      "muscleGroup": "Triceps",
+      "difficulty": "Intermediate",
+      "title": "Overhead Tricep Extension - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:41 mins"
+    },
+    {
+      "id": "vid_ex_squats",
+      "exerciseId": "ex_squats",
+      "exerciseName": "Barbell Back Squat",
+      "muscleGroup": "Legs",
+      "difficulty": "Intermediate",
+      "title": "Barbell Back Squat - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:48 mins"
+    },
+    {
+      "id": "vid_ex_lunges",
+      "exerciseId": "ex_lunges",
+      "exerciseName": "Walking Lunges",
+      "muscleGroup": "Legs",
+      "difficulty": "Beginner",
+      "title": "Walking Lunges - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:20 mins"
+    },
+    {
+      "id": "vid_ex_leg_press",
+      "exerciseId": "ex_leg_press",
+      "exerciseName": "Leg Press",
+      "muscleGroup": "Legs",
+      "difficulty": "Beginner",
+      "title": "Leg Press - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:27 mins"
+    },
+    {
+      "id": "vid_ex_crunches",
+      "exerciseId": "ex_crunches",
+      "exerciseName": "Abdominal Crunches",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "title": "Abdominal Crunches - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:34 mins"
+    },
+    {
+      "id": "vid_ex_plank",
+      "exerciseId": "ex_plank",
+      "exerciseName": "Forearm Plank",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "title": "Forearm Plank - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:41 mins"
+    },
+    {
+      "id": "vid_ex_mountain_climbers",
+      "exerciseId": "ex_mountain_climbers",
+      "exerciseName": "Mountain Climbers",
+      "muscleGroup": "Abs",
+      "difficulty": "Beginner",
+      "title": "Mountain Climbers - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=600&auto=format&fit=crop&q=80",
+      "duration": "3:48 mins"
+    },
+    {
+      "id": "vid_ex_running",
+      "exerciseId": "ex_running",
+      "exerciseName": "Treadmill / Outdoor Running",
+      "muscleGroup": "Cardio",
+      "difficulty": "Beginner",
+      "title": "Treadmill / Outdoor Running - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=600&auto=format&fit=crop&q=80",
+      "duration": "4:20 mins"
+    },
+    {
+      "id": "vid_ex_jumping_jacks",
+      "exerciseId": "ex_jumping_jacks",
+      "exerciseName": "Jumping Jacks",
+      "muscleGroup": "Cardio",
+      "difficulty": "Beginner",
+      "title": "Jumping Jacks - Form & Biomechanics Masterclass",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1598971457999-ca4ef48a9a71?w=600&auto=format&fit=crop&q=80",
+      "duration": "2:27 mins"
+    }
+  ],
+  "plans": {
+    "usr_alex_002": {
+      "userId": "usr_alex_002",
+      "schedule": {
+        "Monday": {
+          "title": "Chest & Triceps Hypertrophy",
+          "focus": "Chest + Triceps",
+          "exercises": [
+            {
+              "id": "p1",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "15-20",
+              "rest": "60s"
+            },
+            {
+              "id": "p2",
+              "name": "Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p3",
+              "name": "Incline Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "90s"
+            },
+            {
+              "id": "p4",
+              "name": "Tricep Pushdown",
+              "muscleGroup": "Triceps",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Tuesday": {
+          "title": "Back & Biceps Power",
+          "focus": "Back + Biceps",
+          "exercises": [
+            {
+              "id": "p5",
+              "name": "Pull Ups",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "rest": "90s"
+            },
+            {
+              "id": "p6",
+              "name": "Deadlift",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "5-6",
+              "rest": "120s"
+            },
+            {
+              "id": "p7",
+              "name": "Lat Pulldown",
+              "muscleGroup": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p8",
+              "name": "Dumbbell Bicep Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Wednesday": {
+          "title": "Legs & Core Conditioning",
+          "focus": "Legs + Abs",
+          "exercises": [
+            {
+              "id": "p9",
+              "name": "Barbell Back Squat",
+              "muscleGroup": "Legs",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "120s"
+            },
+            {
+              "id": "p10",
+              "name": "Walking Lunges",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 / leg",
+              "rest": "60s"
+            },
+            {
+              "id": "p11",
+              "name": "Forearm Plank",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "60 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p12",
+              "name": "Abdominal Crunches",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "20 reps",
+              "rest": "45s"
+            }
+          ]
+        },
+        "Thursday": {
+          "title": "Shoulders & Cardio Burn",
+          "focus": "Shoulders + Cardio",
+          "exercises": [
+            {
+              "id": "p13",
+              "name": "Overhead Shoulder Press",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p14",
+              "name": "Lateral Raise",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p15",
+              "name": "Mountain Climbers",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "30 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p16",
+              "name": "Treadmill / Outdoor Running",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "20 mins",
+              "rest": "Active"
+            }
+          ]
+        },
+        "Friday": {
+          "title": "Upper Body Pump",
+          "focus": "Chest + Back",
+          "exercises": [
+            {
+              "id": "p17",
+              "name": "Dumbbell Fly",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p18",
+              "name": "Seated Cable Row",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p19",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "To failure",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Saturday": {
+          "title": "Full Body & HIIT Cardio",
+          "focus": "Full Body + Cardio",
+          "exercises": [
+            {
+              "id": "p20",
+              "name": "Jumping Jacks",
+              "muscleGroup": "Cardio",
+              "sets": 3,
+              "reps": "45 sec",
+              "rest": "30s"
+            },
+            {
+              "id": "p21",
+              "name": "Leg Press",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p22",
+              "name": "Hammer Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p23",
+              "name": "Overhead Tricep Extension",
+              "muscleGroup": "Triceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Sunday": {
+          "title": "Active Recovery & Mobility",
+          "focus": "Rest / Recovery",
+          "exercises": [
+            {
+              "id": "p24",
+              "name": "Light Outdoor Walk / Foam Rolling",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "30 mins",
+              "rest": "Low intensity"
+            }
+          ]
+        }
+      }
+    },
+    "usr_1789020261621_q0dk": {
+      "userId": "usr_1789020261621_q0dk",
+      "schedule": {
+        "Monday": {
+          "title": "Chest & Triceps Hypertrophy",
+          "focus": "Chest + Triceps",
+          "exercises": [
+            {
+              "id": "p1",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "15-20",
+              "rest": "60s"
+            },
+            {
+              "id": "p2",
+              "name": "Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p3",
+              "name": "Incline Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "90s"
+            },
+            {
+              "id": "p4",
+              "name": "Tricep Pushdown",
+              "muscleGroup": "Triceps",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Tuesday": {
+          "title": "Back & Biceps Power",
+          "focus": "Back + Biceps",
+          "exercises": [
+            {
+              "id": "p5",
+              "name": "Pull Ups",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "rest": "90s"
+            },
+            {
+              "id": "p6",
+              "name": "Deadlift",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "5-6",
+              "rest": "120s"
+            },
+            {
+              "id": "p7",
+              "name": "Lat Pulldown",
+              "muscleGroup": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p8",
+              "name": "Dumbbell Bicep Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Wednesday": {
+          "title": "Legs & Core Conditioning",
+          "focus": "Legs + Abs",
+          "exercises": [
+            {
+              "id": "p9",
+              "name": "Barbell Back Squat",
+              "muscleGroup": "Legs",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "120s"
+            },
+            {
+              "id": "p10",
+              "name": "Walking Lunges",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 / leg",
+              "rest": "60s"
+            },
+            {
+              "id": "p11",
+              "name": "Forearm Plank",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "60 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p12",
+              "name": "Abdominal Crunches",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "20 reps",
+              "rest": "45s"
+            }
+          ]
+        },
+        "Thursday": {
+          "title": "Shoulders & Cardio Burn",
+          "focus": "Shoulders + Cardio",
+          "exercises": [
+            {
+              "id": "p13",
+              "name": "Overhead Shoulder Press",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p14",
+              "name": "Lateral Raise",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p15",
+              "name": "Mountain Climbers",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "30 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p16",
+              "name": "Treadmill / Outdoor Running",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "20 mins",
+              "rest": "Active"
+            }
+          ]
+        },
+        "Friday": {
+          "title": "Upper Body Pump",
+          "focus": "Chest + Back",
+          "exercises": [
+            {
+              "id": "p17",
+              "name": "Dumbbell Fly",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p18",
+              "name": "Seated Cable Row",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p19",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "To failure",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Saturday": {
+          "title": "Full Body & HIIT Cardio",
+          "focus": "Full Body + Cardio",
+          "exercises": [
+            {
+              "id": "p20",
+              "name": "Jumping Jacks",
+              "muscleGroup": "Cardio",
+              "sets": 3,
+              "reps": "45 sec",
+              "rest": "30s"
+            },
+            {
+              "id": "p21",
+              "name": "Leg Press",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p22",
+              "name": "Hammer Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p23",
+              "name": "Overhead Tricep Extension",
+              "muscleGroup": "Triceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Sunday": {
+          "title": "Active Recovery & Mobility",
+          "focus": "Rest / Recovery",
+          "exercises": [
+            {
+              "id": "p24",
+              "name": "Light Outdoor Walk / Foam Rolling",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "30 mins",
+              "rest": "Low intensity"
+            }
+          ]
+        }
+      }
+    },
+    "usr_admin_001": {
+      "userId": "usr_admin_001",
+      "schedule": {
+        "Monday": {
+          "title": "Chest & Triceps Hypertrophy",
+          "focus": "Chest + Triceps",
+          "exercises": [
+            {
+              "id": "p1",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "15-20",
+              "rest": "60s"
+            },
+            {
+              "id": "p2",
+              "name": "Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p3",
+              "name": "Incline Bench Press",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "90s"
+            },
+            {
+              "id": "p4",
+              "name": "Tricep Pushdown",
+              "muscleGroup": "Triceps",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Tuesday": {
+          "title": "Back & Biceps Power",
+          "focus": "Back + Biceps",
+          "exercises": [
+            {
+              "id": "p5",
+              "name": "Pull Ups",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "6-8",
+              "rest": "90s"
+            },
+            {
+              "id": "p6",
+              "name": "Deadlift",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "5-6",
+              "rest": "120s"
+            },
+            {
+              "id": "p7",
+              "name": "Lat Pulldown",
+              "muscleGroup": "Back",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p8",
+              "name": "Dumbbell Bicep Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "10-12",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Wednesday": {
+          "title": "Legs & Core Conditioning",
+          "focus": "Legs + Abs",
+          "exercises": [
+            {
+              "id": "p9",
+              "name": "Barbell Back Squat",
+              "muscleGroup": "Legs",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "120s"
+            },
+            {
+              "id": "p10",
+              "name": "Walking Lunges",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 / leg",
+              "rest": "60s"
+            },
+            {
+              "id": "p11",
+              "name": "Forearm Plank",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "60 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p12",
+              "name": "Abdominal Crunches",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "20 reps",
+              "rest": "45s"
+            }
+          ]
+        },
+        "Thursday": {
+          "title": "Shoulders & Cardio Burn",
+          "focus": "Shoulders + Cardio",
+          "exercises": [
+            {
+              "id": "p13",
+              "name": "Overhead Shoulder Press",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "8-10",
+              "rest": "90s"
+            },
+            {
+              "id": "p14",
+              "name": "Lateral Raise",
+              "muscleGroup": "Shoulders",
+              "sets": 4,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p15",
+              "name": "Mountain Climbers",
+              "muscleGroup": "Abs",
+              "sets": 3,
+              "reps": "30 sec",
+              "rest": "45s"
+            },
+            {
+              "id": "p16",
+              "name": "Treadmill / Outdoor Running",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "20 mins",
+              "rest": "Active"
+            }
+          ]
+        },
+        "Friday": {
+          "title": "Upper Body Pump",
+          "focus": "Chest + Back",
+          "exercises": [
+            {
+              "id": "p17",
+              "name": "Dumbbell Fly",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "12-15",
+              "rest": "60s"
+            },
+            {
+              "id": "p18",
+              "name": "Seated Cable Row",
+              "muscleGroup": "Back",
+              "sets": 4,
+              "reps": "10-12",
+              "rest": "60s"
+            },
+            {
+              "id": "p19",
+              "name": "Push Ups",
+              "muscleGroup": "Chest",
+              "sets": 3,
+              "reps": "To failure",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Saturday": {
+          "title": "Full Body & HIIT Cardio",
+          "focus": "Full Body + Cardio",
+          "exercises": [
+            {
+              "id": "p20",
+              "name": "Jumping Jacks",
+              "muscleGroup": "Cardio",
+              "sets": 3,
+              "reps": "45 sec",
+              "rest": "30s"
+            },
+            {
+              "id": "p21",
+              "name": "Leg Press",
+              "muscleGroup": "Legs",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p22",
+              "name": "Hammer Curl",
+              "muscleGroup": "Biceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            },
+            {
+              "id": "p23",
+              "name": "Overhead Tricep Extension",
+              "muscleGroup": "Triceps",
+              "sets": 3,
+              "reps": "12 reps",
+              "rest": "60s"
+            }
+          ]
+        },
+        "Sunday": {
+          "title": "Active Recovery & Mobility",
+          "focus": "Rest / Recovery",
+          "exercises": [
+            {
+              "id": "p24",
+              "name": "Light Outdoor Walk / Foam Rolling",
+              "muscleGroup": "Cardio",
+              "sets": 1,
+              "reps": "30 mins",
+              "rest": "Low intensity"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "completions": [
+    {
+      "id": "cmp_1",
+      "userId": "usr_alex_002",
+      "date": "2026-09-10",
+      "exerciseName": "Push Ups",
+      "dayName": "Monday",
+      "completedAt": "2026-09-10T06:00:19.768Z"
+    },
+    {
+      "id": "cmp_2",
+      "userId": "usr_alex_002",
+      "date": "2026-09-10",
+      "exerciseName": "Bench Press",
+      "dayName": "Monday",
+      "completedAt": "2026-09-10T06:00:19.768Z"
+    },
+    {
+      "id": "cmp_1789021027396_ttd6",
+      "userId": "usr_1789020261621_q0dk",
+      "date": "2026-09-10",
+      "dayName": "Thursday",
+      "exerciseName": "Lateral Raise",
+      "completedAt": "2026-09-10T06:17:07.396Z"
+    },
+    {
+      "id": "cmp_1789021028945_5w9a",
+      "userId": "usr_1789020261621_q0dk",
+      "date": "2026-09-10",
+      "dayName": "Thursday",
+      "exerciseName": "Mountain Climbers",
+      "completedAt": "2026-09-10T06:17:08.945Z"
+    },
+    {
+      "id": "cmp_1789021031405_zfn4",
+      "userId": "usr_1789020261621_q0dk",
+      "date": "2026-09-10",
+      "dayName": "Thursday",
+      "exerciseName": "Treadmill / Outdoor Running",
+      "completedAt": "2026-09-10T06:17:11.405Z"
+    },
+    {
+      "id": "cmp_1789021377417_kzee",
+      "userId": "usr_1789020261621_q0dk",
+      "date": "2026-09-10",
+      "dayName": "Thursday",
+      "exerciseName": "Overhead Shoulder Press",
+      "completedAt": "2026-09-10T06:22:57.417Z"
+    }
+  ],
+  "goals": [
+    {
+      "id": "g_1",
+      "userId": "usr_alex_002",
+      "title": "Reach Lean Body Weight of 78 kg",
+      "goalType": "Muscle Building",
+      "currentValue": 74,
+      "targetValue": 78,
+      "unit": "kg",
+      "targetDate": "2026-11-09",
+      "createdAt": "2026-08-11"
+    },
+    {
+      "id": "g_2",
+      "userId": "usr_alex_002",
+      "title": "Bench Press Bodyweight x 1.25 (95 kg)",
+      "goalType": "Strength",
+      "currentValue": 75,
+      "targetValue": 95,
+      "unit": "kg",
+      "targetDate": "2026-12-09",
+      "createdAt": "2026-08-11"
+    },
+    {
+      "id": "g_3",
+      "userId": "usr_alex_002",
+      "title": "Consistent 10,000 Daily Steps Streak",
+      "goalType": "General Fitness",
+      "currentValue": 8400,
+      "targetValue": 10000,
+      "unit": "steps/day",
+      "targetDate": "2026-10-10",
+      "createdAt": "2026-08-26"
+    },
+    {
+      "id": "g_1789021069180",
+      "userId": "usr_1789020261621_q0dk",
+      "title": "100kg",
+      "goalType": "Weight Gain",
+      "currentValue": 72,
+      "targetValue": 78,
+      "unit": "kg",
+      "targetDate": "2026-12-31",
+      "createdAt": "2026-09-10"
+    }
+  ],
+  "nutrition": [
+    {
+      "id": "nut_1",
+      "userId": "usr_alex_002",
+      "foodName": "Poha with veggies & boiled egg",
+      "calories": 406,
+      "protein": 18,
+      "carbohydrates": 43,
+      "fat": 17,
+      "quantity": "1 large bowl + 2 eggs",
+      "mealType": "Breakfast",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "nut_2",
+      "userId": "usr_alex_002",
+      "foodName": "Whole Wheat Roti (2) + Dal Tadka + Salad",
+      "calories": 355,
+      "protein": 17,
+      "carbohydrates": 62,
+      "fat": 5,
+      "quantity": "2 rotis + 1 bowl dal",
+      "mealType": "Lunch",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "nut_3",
+      "userId": "usr_alex_002",
+      "foodName": "Sprouted Moong Chaat + Banana",
+      "calories": 235,
+      "protein": 10,
+      "carbohydrates": 49,
+      "fat": 1.1,
+      "quantity": "1 cup sprouts + 1 banana",
+      "mealType": "Snacks",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "nut_4",
+      "userId": "usr_alex_002",
+      "foodName": "Steamed Rice + Paneer Curry + Curd",
+      "calories": 570,
+      "protein": 27,
+      "carbohydrates": 58,
+      "fat": 22.5,
+      "quantity": "1 cup rice + 150g paneer",
+      "mealType": "Dinner",
+      "date": "2026-09-09"
+    }
+  ],
+  "foods": [
+    {
+      "id": "f_poha",
+      "name": "Poha (flattened rice with veggies & peanuts)",
+      "category": "Breakfast",
+      "serving": "1 medium bowl (150g)",
+      "calories": 250,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 7,
+      "isIndian": true
+    },
+    {
+      "id": "f_upma",
+      "name": "Rava Upma with vegetables",
+      "category": "Breakfast",
+      "serving": "1 cup (160g)",
+      "calories": 220,
+      "protein": 6,
+      "carbs": 36,
+      "fat": 6,
+      "isIndian": true
+    },
+    {
+      "id": "f_idli",
+      "name": "Steamed Idli with Sambar & Chutney",
+      "category": "Breakfast",
+      "serving": "2 pieces + sambar",
+      "calories": 180,
+      "protein": 7,
+      "carbs": 32,
+      "fat": 3,
+      "isIndian": true
+    },
+    {
+      "id": "f_dosa",
+      "name": "Plain Dosa with Chutney",
+      "category": "Breakfast",
+      "serving": "1 dosa (100g)",
+      "calories": 210,
+      "protein": 5,
+      "carbs": 33,
+      "fat": 6,
+      "isIndian": true
+    },
+    {
+      "id": "f_eggs",
+      "name": "Boiled Eggs (2 whole)",
+      "category": "Breakfast",
+      "serving": "2 large eggs",
+      "calories": 156,
+      "protein": 13,
+      "carbs": 1,
+      "fat": 10,
+      "isIndian": false
+    },
+    {
+      "id": "f_oats",
+      "name": "Oatmeal with Skim Milk & Almonds",
+      "category": "Breakfast",
+      "serving": "1 bowl (200g)",
+      "calories": 280,
+      "protein": 12,
+      "carbs": 44,
+      "fat": 6,
+      "isIndian": false
+    },
+    {
+      "id": "f_paratha",
+      "name": "Paneer Paratha (1 pc)",
+      "category": "Breakfast",
+      "serving": "1 medium paratha",
+      "calories": 290,
+      "protein": 11,
+      "carbs": 34,
+      "fat": 12,
+      "isIndian": true
+    },
+    {
+      "id": "f_milk",
+      "name": "Toned Cow Milk (1 glass)",
+      "category": "Breakfast",
+      "serving": "250 ml",
+      "calories": 150,
+      "protein": 8,
+      "carbs": 12,
+      "fat": 7,
+      "isIndian": true
+    },
+    {
+      "id": "f_roti",
+      "name": "Whole Wheat Roti / Chapati (2 pcs)",
+      "category": "Lunch",
+      "serving": "2 rotis (60g)",
+      "calories": 160,
+      "protein": 6,
+      "carbs": 32,
+      "fat": 1.5,
+      "isIndian": true
+    },
+    {
+      "id": "f_rice",
+      "name": "Steamed Basmati Rice",
+      "category": "Lunch",
+      "serving": "1 cup cooked (150g)",
+      "calories": 195,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 0.5,
+      "isIndian": true
+    },
+    {
+      "id": "f_dal",
+      "name": "Yellow Moong / Toor Dal Tadka",
+      "category": "Lunch",
+      "serving": "1 katori (150ml)",
+      "calories": 150,
+      "protein": 9,
+      "carbs": 22,
+      "fat": 3,
+      "isIndian": true
+    },
+    {
+      "id": "f_rajma",
+      "name": "Rajma Masala (Kidney Beans)",
+      "category": "Lunch",
+      "serving": "1 cup (180g)",
+      "calories": 240,
+      "protein": 13,
+      "carbs": 38,
+      "fat": 4,
+      "isIndian": true
+    },
+    {
+      "id": "f_chole",
+      "name": "Chole Masala (Chickpeas Curry)",
+      "category": "Lunch",
+      "serving": "1 cup (180g)",
+      "calories": 260,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 6,
+      "isIndian": true
+    },
+    {
+      "id": "f_paneer_curry",
+      "name": "Low-Fat Paneer Bhurji / Curry",
+      "category": "Lunch",
+      "serving": "150g",
+      "calories": 280,
+      "protein": 18,
+      "carbs": 8,
+      "fat": 18,
+      "isIndian": true
+    },
+    {
+      "id": "f_veg_sabzi",
+      "name": "Mixed Vegetable Curry (Gobhi/Matar)",
+      "category": "Lunch",
+      "serving": "1 cup (150g)",
+      "calories": 120,
+      "protein": 4,
+      "carbs": 16,
+      "fat": 4,
+      "isIndian": true
+    },
+    {
+      "id": "f_curd",
+      "name": "Fresh Plain Curd / Dahi",
+      "category": "Lunch",
+      "serving": "1 katori (150g)",
+      "calories": 95,
+      "protein": 5,
+      "carbs": 6,
+      "fat": 4,
+      "isIndian": true
+    },
+    {
+      "id": "f_salad",
+      "name": "Cucumber & Tomato Kachumber Salad",
+      "category": "Lunch",
+      "serving": "1 plate (150g)",
+      "calories": 45,
+      "protein": 2,
+      "carbs": 8,
+      "fat": 0.5,
+      "isIndian": true
+    },
+    {
+      "id": "f_banana",
+      "name": "Fresh Ripe Banana",
+      "category": "Snacks",
+      "serving": "1 medium",
+      "calories": 105,
+      "protein": 1.3,
+      "carbs": 27,
+      "fat": 0.3,
+      "isIndian": false
+    },
+    {
+      "id": "f_apple",
+      "name": "Fresh Green/Red Apple",
+      "category": "Snacks",
+      "serving": "1 medium",
+      "calories": 95,
+      "protein": 0.5,
+      "carbs": 25,
+      "fat": 0.3,
+      "isIndian": false
+    },
+    {
+      "id": "f_sprouts",
+      "name": "Sprouted Moong Chaat with lemon",
+      "category": "Snacks",
+      "serving": "1 cup (120g)",
+      "calories": 130,
+      "protein": 9,
+      "carbs": 22,
+      "fat": 0.8,
+      "isIndian": true
+    },
+    {
+      "id": "f_peanuts",
+      "name": "Roasted Salted Peanuts",
+      "category": "Snacks",
+      "serving": "Handful (30g)",
+      "calories": 170,
+      "protein": 7.5,
+      "carbs": 5,
+      "fat": 14,
+      "isIndian": true
+    },
+    {
+      "id": "f_roasted_chana",
+      "name": "Bhuna Chana (Roasted Bengal Gram)",
+      "category": "Snacks",
+      "serving": "1 small bowl (40g)",
+      "calories": 150,
+      "protein": 8,
+      "carbs": 24,
+      "fat": 2,
+      "isIndian": true
+    },
+    {
+      "id": "f_greek_yogurt",
+      "name": "Greek High-Protein Yogurt",
+      "category": "Snacks",
+      "serving": "1 cup (150g)",
+      "calories": 110,
+      "protein": 15,
+      "carbs": 6,
+      "fat": 2,
+      "isIndian": false
+    },
+    {
+      "id": "f_buttermilk",
+      "name": "Chaas (Spiced Masala Buttermilk)",
+      "category": "Snacks",
+      "serving": "1 tall glass (250ml)",
+      "calories": 50,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 2,
+      "isIndian": true
+    },
+    {
+      "id": "f_khichdi",
+      "name": "Dal Khichdi with Ghee",
+      "category": "Dinner",
+      "serving": "1 plate (200g)",
+      "calories": 260,
+      "protein": 8,
+      "carbs": 46,
+      "fat": 5,
+      "isIndian": true
+    },
+    {
+      "id": "f_palak_paneer",
+      "name": "Palak Paneer (Spinach Cottage Cheese)",
+      "category": "Dinner",
+      "serving": "1 cup (180g)",
+      "calories": 240,
+      "protein": 14,
+      "carbs": 9,
+      "fat": 16,
+      "isIndian": true
+    },
+    {
+      "id": "f_bhindi",
+      "name": "Bhindi Masala (Okra stir fry)",
+      "category": "Dinner",
+      "serving": "1 cup (140g)",
+      "calories": 110,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 5,
+      "isIndian": true
+    },
+    {
+      "id": "f_grilled_chicken",
+      "name": "Tandoori / Grilled Chicken Breast",
+      "category": "Dinner",
+      "serving": "150g",
+      "calories": 220,
+      "protein": 35,
+      "carbs": 2,
+      "fat": 7,
+      "isIndian": true
+    }
+  ],
+  "water": [
+    {
+      "id": "wtr_1",
+      "userId": "usr_alex_002",
+      "amountMl": 500,
+      "date": "2026-09-10",
+      "loggedAt": "08:30 AM"
+    },
+    {
+      "id": "wtr_2",
+      "userId": "usr_alex_002",
+      "amountMl": 500,
+      "date": "2026-09-10",
+      "loggedAt": "11:15 AM"
+    },
+    {
+      "id": "wtr_3",
+      "userId": "usr_alex_002",
+      "amountMl": 750,
+      "date": "2026-09-10",
+      "loggedAt": "02:40 PM"
+    },
+    {
+      "id": "wtr_4",
+      "userId": "usr_alex_002",
+      "amountMl": 500,
+      "date": "2026-09-10",
+      "loggedAt": "05:10 PM"
+    },
+    {
+      "id": "wtr_5",
+      "userId": "usr_alex_002",
+      "amountMl": 2500,
+      "date": "2026-09-09",
+      "loggedAt": "09:00 PM"
+    },
+    {
+      "id": "wtr_6",
+      "userId": "usr_alex_002",
+      "amountMl": 3000,
+      "date": "2026-09-08",
+      "loggedAt": "09:00 PM"
+    },
+    {
+      "id": "wtr_1789021304265",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021306306",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 500,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021307485",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021315370",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021315529",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021315706",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:21 AM"
+    },
+    {
+      "id": "wtr_1789021322963",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:22 AM"
+    },
+    {
+      "id": "wtr_1789021324048",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:22 AM"
+    },
+    {
+      "id": "wtr_1789021324837",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 250,
+      "date": "2026-09-10",
+      "loggedAt": "06:22 AM"
+    },
+    {
+      "id": "wtr_1789021327991",
+      "userId": "usr_1789020261621_q0dk",
+      "amountMl": 500,
+      "date": "2026-09-10",
+      "loggedAt": "06:22 AM"
+    }
+  ],
+  "steps": [
+    {
+      "id": "stp_today",
+      "userId": "usr_alex_002",
+      "stepsCount": 6850,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "stp_1",
+      "userId": "usr_alex_002",
+      "stepsCount": 10420,
+      "date": "2026-09-09"
+    },
+    {
+      "id": "stp_2",
+      "userId": "usr_alex_002",
+      "stepsCount": 9340,
+      "date": "2026-09-08"
+    },
+    {
+      "id": "stp_3",
+      "userId": "usr_alex_002",
+      "stepsCount": 11200,
+      "date": "2026-09-07"
+    },
+    {
+      "id": "stp_4",
+      "userId": "usr_alex_002",
+      "stepsCount": 8900,
+      "date": "2026-09-06"
+    },
+    {
+      "id": "stp_5",
+      "userId": "usr_alex_002",
+      "stepsCount": 10150,
+      "date": "2026-09-05"
+    },
+    {
+      "id": "stp_6",
+      "userId": "usr_alex_002",
+      "stepsCount": 7600,
+      "date": "2026-09-04"
+    }
+  ],
+  "measurements": [
+    {
+      "id": "ms_1",
+      "userId": "usr_alex_002",
+      "chest": 102,
+      "waist": 81,
+      "arms": 37,
+      "thighs": 58,
+      "shoulders": 118,
+      "weight": 74,
+      "date": "2026-09-10"
+    },
+    {
+      "id": "ms_2",
+      "userId": "usr_alex_002",
+      "chest": 100,
+      "waist": 83,
+      "arms": 36,
+      "thighs": 57,
+      "shoulders": 116,
+      "weight": 75.2,
+      "date": "2026-08-27"
+    },
+    {
+      "id": "ms_3",
+      "userId": "usr_alex_002",
+      "chest": 98,
+      "waist": 85,
+      "arms": 35,
+      "thighs": 56,
+      "shoulders": 114,
+      "weight": 76.5,
+      "date": "2026-08-11"
+    }
+  ],
+  "bmiHistory": [
+    {
+      "id": "bmi_1789020261622",
+      "userId": "usr_1789020261621_q0dk",
+      "height": 175,
+      "weight": 60,
+      "bmi": 19.6,
+      "category": "Normal",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "bmi_1",
+      "userId": "usr_alex_002",
+      "height": 178,
+      "weight": 74,
+      "bmi": 23.4,
+      "category": "Normal",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "bmi_2",
+      "userId": "usr_alex_002",
+      "height": 178,
+      "weight": 75.2,
+      "bmi": 23.7,
+      "category": "Normal",
+      "date": "2026-08-27"
+    },
+    {
+      "id": "bmi_3",
+      "userId": "usr_alex_002",
+      "height": 178,
+      "weight": 76.5,
+      "bmi": 24.1,
+      "category": "Normal",
+      "date": "2026-08-11"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1",
+      "userId": "usr_alex_002",
+      "title": "Afternoon Hydration",
+      "message": "You have logged 2,250 ml so far. Only 750 ml left to smash today’s 3 L target!",
+      "type": "water",
+      "read": false,
+      "timestamp": "15 mins ago"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_alex_002",
+      "title": "Workout Plan Ready",
+      "message": "Today is Monday: Chest + Triceps. 2 of 4 exercises completed!",
+      "type": "workout",
+      "read": false,
+      "timestamp": "1 hour ago"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_alex_002",
+      "title": "Protein Milestone",
+      "message": "Great job reaching 45g of protein by midday. Keep an eye on dinner.",
+      "type": "meal",
+      "read": true,
+      "timestamp": "3 hours ago"
+    }
+  ]
+}
